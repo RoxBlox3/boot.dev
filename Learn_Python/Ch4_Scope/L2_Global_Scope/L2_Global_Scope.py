@@ -16,4 +16,3 @@ def calculate_primary_stats(armor_bonus, modifier):
 print(f"Character has {calculate_health(10)} max health.")
 
 print(f"Character has {calculate_primary_stats(3, 8)} primary stats.")
-
