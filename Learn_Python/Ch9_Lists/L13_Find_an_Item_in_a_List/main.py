@@ -9,4 +9,3 @@ def contains_leather_scraps(items):
     # don't touch below this line
 
     return found
-
