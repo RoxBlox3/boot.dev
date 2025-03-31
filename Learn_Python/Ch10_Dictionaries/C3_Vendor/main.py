@@ -11,5 +11,8 @@ def calculate_total(items_purchased, pinned_list):
         "magic_ring": 100.00,
         "mystic_amulet": 150.00,
     }
-
+    unpurchased_items = []
+    for pinned_list in item_prices:
+        unpurchased_items.append(pinned_list)
+    return unpurchased_items
     # Don't touch above this line
